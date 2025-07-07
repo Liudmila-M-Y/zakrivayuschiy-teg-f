@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font-family: 'Inter-Variable';
+    --accent-font-family: 'PressStart2P-Regular';
+    --main-font-size: 18px;
+    --card-label-font-size: 14px;
+    --button-font-size: 14px;
+    --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --dialog-text-font-size: 14px;
+    --main-font-weight: 400;
+    --card-title-font-weight: 700;
+    --content-section-inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --header-margin-block: 100px;
+    --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
+    --card-margin-block-end: 50px;
+    --card-content-padding: 25px;
+    --dialog-inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+    --page-bg-image: repeating-linear-gradient(to right, rgb(211 211 211) 0 2px, rgb(211 211 211 / 0) 2px 4px),
+      repeating-linear-gradient(to bottom, rgb(211 211 211) 0 2px, rgb(211 211 211 / 0) 2px 4px), 
+      linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --content-bg-color: #fff;
+    --button-bg-color: #fff;
+    --card-label-text-stroke-color: #fff;
+    --accent-color: #000;
+    --button-text-color: #fff;
+    --heart-contour-color: #000;
+    --animation-fill-color: red;
+    --content-border: 2px solid #000;
+    --button-border: 2px solid #000;
+}
